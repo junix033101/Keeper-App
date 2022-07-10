@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import Notes from "./Notes";
+import Note from "./Note";
 
 function App(){
     return (
         <div>
-        <Header/>
-        {/* <Notes/>
-        <Footer/> */}
+            <Header/>
+            <Note/>
+            <Footer/>
         </div>
     );
 }
